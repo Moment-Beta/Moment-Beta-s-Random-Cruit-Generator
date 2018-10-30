@@ -1,0 +1,100 @@
+body{
+	background-color: #050510;
+	color: white;
+	font-family: "titillium_webregular";
+}
+.wepbox{
+width: 528px;
+	height: 190px;
+	border-color: #2ab4ea;
+	border-style: solid;
+	border-width: 2px;
+	display: block;
+	text-align: center; margin: 1em 0;
+}
+.gadbox{
+width: 256px;
+	height: 256px;
+	border-color: #2ab4ea;
+	border-style: solid;
+	border-width: 2px;
+	
+	display: inline-block;
+	text-align: center; margin: 1em 0;
+	margin-right:8px;
+}
+.wepbox:hover{
+	outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.pic{
+	
+	margin: auto;
+	vertical-align: middle;
+}
+.imgbox{
+	height: 70%;
+	text-align: center; margin: 1em 0;
+}
+
+.name{
+	
+	color: white;
+	
+	
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.inv{
+	
+	display: inline-block;
+	width: 590px;
+}
+.rhs{
+	display: inline-block;
+}
+.btn.Atk{
+	background-color: #ff6f0f;
+	margin-bottom: 20px;
+}
+.btn.Def{
+	background-color: #0f6fff;
+}
+.btn{
+	width: 380;
+	padding:10px;
+	
+	
+	vertical-align: middle;
+	display: block;
+	height: 120px;
+	font-family: "titillium_webregular";
+	color: white;
+	font-size: 22;
+}
+.btnTxt{
+	pointer-events: none;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 60px;
+	padding-bottom: 70px;
+	
+}
+.recruitImg{
+	display: inline-block;
+	margin-bottom: 37px;
+}
+.floatImg{
+	
+	height: 128;
+	width: 128;
+	display: block;
+	position: fixed;
+	top: 350;
+	left: 750;
+}

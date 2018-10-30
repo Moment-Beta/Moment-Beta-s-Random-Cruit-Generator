@@ -1,0 +1,62 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="Assets/font/font.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="data.js"></script>
+</head>
+
+<body>
+	<div class="inv">
+		<span>PRIMARY WEAPON</span>
+		<div class="wepbox">
+			<div class="imgbox">
+				<span class="helper"></span>
+				<img src="Weapons/GSG9/G8A1.PNG" class="pic" id="primaryImg">
+			</div>
+			<span class="name" id="primaryName">Name</span>
+		</div>
+		<span>SECONDARY WEAPON</span>
+		<div class="wepbox">
+			<div class="imgbox">
+				<span class="helper"></span>
+				<img src="Weapons/GSG9/P12.PNG" class="pic" id="secondaryImg">
+			</div>
+			<span class="name" id="secondaryName">Name</span>
+		</div>
+		<span>GADGETS</span><br>
+		<div class="gadbox">
+			<div class="imgbox">
+				<span class="helper"></span>
+				<img src="Gadgets/breach.PNG" class="pic" id="gadget1Img">
+			</div>
+			<span class="name" id="gadget1Name">Name</span>
+		</div>
+		<div class="gadbox">
+			<div class="imgbox">
+				<span class="helper"></span>
+				<img src="Gadgets/breach.PNG" class="pic" id="gadget2Img">
+			</div>
+			<span class="name" id="gadget2Name">Name</span>
+		</div>
+		
+	</div>
+	<div class="rhs">
+	<img class="recruitImg" src="croot.png" >
+	
+	
+	<button class="btn Atk" onclick="randomize(true)"><img src="Assets/attacker.png" height=95px  >
+		<div class="btnTxt">RANDOM ATTACK</div></button>
+	
+	<button class="btn Def" onclick="randomize(false)">
+	<img src="Assets/defender.png" height="95px ">
+		<div class="btnTxt">RANDOM DEFENCE</div>
+	</button>
+		</div>
+
+<div class="floatImg">
+	<img id="badge" src="FBI%20SWAT.png">
+	
+	</div>
+<script type="application/javascript" async="true">randomize(true);</script>
+</body>
+</html>
