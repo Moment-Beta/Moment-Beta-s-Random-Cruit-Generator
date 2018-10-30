@@ -276,10 +276,10 @@ data = {
 }
 function makeSrcURL(CTU,Weapon){
 	if(CTU!="gadget"){
-		return window.location.origin+"/Weapons/"+CTU+"/"+Weapon+".PNG"
+		return window.location.href+"/Weapons/"+CTU+"/"+Weapon+".PNG"
 	}
 	else{
-		return window.location.origin +"/Gadgets/"+Weapon+".PNG"
+		return window.location.href +"/Gadgets/"+Weapon+".PNG"
 	}
 }
 function randomize(attack){
